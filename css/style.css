@@ -1,0 +1,350 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-color: #424242;
+	height: 50px;
+}
+
+body
+{
+	
+}
+aside
+{
+	margin-top: 0;
+}
+
+footer
+{
+	background-color: #424242;
+	height: 30px;
+	margin-top: auto;
+	padding-left: 40%;
+	
+}
+	/*----Navigation-----*/
+
+	#nav-bar
+	{
+		position: sticky;
+		top: 0;
+		z-index: 10;
+	}
+
+	.navbar-brand img
+	{
+		height: 30px;
+		padding-left: 30px;
+		padding-bottom: 5px;
+
+	}
+
+	.navbar-nav li 
+	{
+		padding: 0 10px;
+	}
+	.navbar-nav li a
+	{
+		float: right;
+		text-align: left;
+	}
+
+	#nav-bar ul li a:hover 
+	{
+		background-color: #7d7d7d;
+		color: #000000;
+	}
+
+	.navbar
+	{
+		background: #424242;
+		color: #fff;
+	}
+
+	.navbar-toggler
+	{
+		border: none!important;
+	}
+
+	.nav-link
+	{
+		color: #ffffff!important;
+		font-weight: 600;
+		font-size: 16px;
+	}
+
+.progress
+{
+	margin:5px;
+}
+
+.video
+{
+	margin-left: 30%;
+	margin-bottom: 10px;
+}
+
+.map
+{
+	margin-left: 30%;
+	margin-bottom: 10px;
+}
+
+	/*------Servicios------*/
+	#services
+	{
+		background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/services.jpeg);
+		background-size: cover;
+		background-position: center;
+		color: #efefef !important;
+		background-attachment: fixed;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	#services h1
+	{
+		text-align: center;
+		color: #efefef !important;
+		padding-bottom: 10px;
+	}
+
+	#services h1: :
+	{
+		content:'';
+		background: #efefef;
+		display: block;
+		height: 3px;
+		width: 170px;
+		margin: 20px auto 5px;
+	}
+
+	.services
+	{
+		margin-top: 40px;
+	}
+
+	.icon
+	{
+		font-size: 40px;
+		margin: 20px auto;
+		padding: 20px;
+		height: 80px;
+		width: 80px;
+		border: 1px solid #fff;
+		border-radius: 50%;
+	}
+
+	#services p
+	{
+		font-size: 14px;
+		margin-top: 20px;
+		color: #ccc;
+	}
+
+	.services .col-md-2:hover
+	{
+		background: #878787;
+		cursor: pointer;
+		transition: 0.7s;
+	}
+		.services .col-md-4:hover
+	{
+		background: #878787;
+		cursor: pointer;
+		transition: 0.7s;
+	}
+
+/*----GRID----*/
+#container img 
+{
+	
+}
+
+.offset-6 img
+{
+	margin-top: -300px;
+}
+
+.img-fluid
+{
+
+}
+
+
+
+/*---------Footer---------*/
+
+	#footer
+	{
+		background: #878787;
+		color: #fff;
+		padding: 12px;
+	}
+
+	.contact-info .fa
+	{
+		margin: 10px;
+		color: #D4AF37;
+		font-weight: bold;
+	}
+	#footer .fa
+	{
+		height: 25px;
+		width: 25px;
+		color: #000 !important;
+		background: #fff;
+		padding: 4px;
+		border-radius: 50%;
+	}
+
+	.container ul li
+	{
+		padding: 5px;
+		display: inline-block;
+	}
+
+#paso
+{
+	border: 20px;
+	border-color: #a6a4a4;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/*--Login---/
+/* Set a style for all buttons */
+button {
+  background-color: #000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/*--Registro--/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #000;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+
+
+
+
