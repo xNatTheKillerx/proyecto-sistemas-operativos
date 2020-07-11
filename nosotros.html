@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link type="text/css" rel="stylesheet" type="text/css" href="../css/style.css">
+        <link type="text/css" rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>SITIO WEB</title>
         <link rel="stylesheet" href="css/style.css">
@@ -23,7 +23,7 @@
    <!---Navegacion--->
   <section id="nav-bar"> 
     <nav class="navbar navbar-expand-lg navbar-light ">
-      <a class="navbar-brand" href="index.html"><img src="../img/logo.png"></a>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,38 +50,30 @@
   </div>
 </nav>
 </section>
+ 
+<!---Login--->
+ 
+    <div class="offset-3 col-md-6">
+    <form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img/fb.png" alt="Avatar" class="avatar">
+  </div>
 
-  <!---Registro--->
-
-
-<div class="offset-3 col-md-6">
-  <form action="action_page.php">
   <div class="container">
-    <h1>Registro</h1>
-    <p>Porfavor llena este formulario para crear una cuenta.</p>
-    <hr>
-
-    <label for="email"><b>Correo</b></label>
-    <input type="text" placeholder="Introduce el correo" name="email" id="email" required>
+    <label for="uname"><b>Correo</b></label>
+    <input type="text" placeholder="Introduce el correo" name="uname" required>
 
     <label for="psw"><b>Contraseña</b></label>
-    <input type="password" placeholder="Introduce la contraseña" name="psw" id="psw" required>
+    <input type="password" placeholder="Introduce la contraseña" name="psw" required>
 
-    <label for="psw-repeat"><b>Repite Contraseña</b></label>
-    <input type="password" placeholder="Repite la contraseña" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-
-    <p>Al crear una cuenta estas deacuerdo con nuestros Terminos y Condiciones.</p>
-    <button type="submit" class="registerbtn">Registrar</button>
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Recuerdame
+    </label>
   </div>
 </form>
 </div>
 
-  
-
-
-
- 
         <!----------Footer---------->
       <section id="footer">
         <div class="container text-center">
